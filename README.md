@@ -31,6 +31,7 @@ Padrão Singleton/Factory: Para gerenciamento da conexão (ConnectionFactory).
 Para rodar o projeto, você precisa criar o banco de dados escola e rodar o script abaixo para criar as tabelas e sequências corretamente:
 
 --TABELAS--------------------------------------------------------------------------------------------------------------------------------
+
 CREATE TABLE pessoa (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
@@ -70,6 +71,7 @@ CREATE TABLE nota (
     valor_nota DECIMAL(5, 2),
     bimestre INT
 );
+
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 ⚠️ Importante: Correção de Sequências
