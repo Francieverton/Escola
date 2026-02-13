@@ -77,9 +77,15 @@ CREATE TABLE nota (
 ⚠️ Importante: Correção de Sequências
 Se você inseriu dados manualmente ou teve erros de ID duplicado, execute estes comandos para sincronizar as sequências do banco:
 
+------------------------------------------------------------------------------------------------
+
 SELECT setval('public.pessoa_id_seq', (SELECT MAX(id) FROM pessoa));
+
 SELECT setval('public.disciplina_id_seq', (SELECT MAX(id) FROM disciplina));
+
 SELECT setval('public.nota_id_seq', (SELECT MAX(id) FROM nota));
+
+-------------------------------------------------------------------------------------------------
 
 ▶️ Como Rodar
 Clone este repositório.
