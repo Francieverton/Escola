@@ -52,7 +52,7 @@ Siga o passo a passo abaixo para configurar o banco e executar o sistema acadêm
 ### 1. Clonar e Importar
 ```bash
 # Clone o repositório
-git clone [https://github.com/Francieverton/seu-repositorio-aqui.git](https://github.com/Francieverton/seu-repositorio-aqui.git)
+git clone https://github.com/Francieverton/Escola.git
 
 Importe o projeto na sua IDE favorita (Eclipse, IntelliJ, NetBeans).
 
